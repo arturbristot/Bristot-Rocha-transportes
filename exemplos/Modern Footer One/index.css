@@ -99,24 +99,18 @@ body {
     padding: 0;
     margin: 1.5rem 0 0 0;
   }
-
   .link-row {
     flex-direction: column;
     padding: 3rem 2rem;
   }
-
   .footer {
     padding: 0 2rem;
   }
-
   .social-row {
     flex-direction: column;
     padding: 2rem 0 4rem 0;
   }
-
   .copyright-column p {
     line-height: 1.5rem;
   }
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
