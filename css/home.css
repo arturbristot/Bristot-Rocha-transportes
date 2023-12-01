@@ -372,7 +372,7 @@ body{
 #resumo p{
   font-size: 1.1rem;
   text-align: center;
-  width: 53%;
+  width: 40rem;
   color: var(--text-color);
 }
 
@@ -404,7 +404,7 @@ body{
 
 .card p{
   margin-top: 25%;
-  width: 15rem;
+
 }
 
 
@@ -433,4 +433,23 @@ body{
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #cards{
+    grid-template-columns: repeat(1, 5fr); /* Cria 5 colunas com largura igual */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html{
+    font-size: 70%;
+  }
+
+  #resumo{
+    height: auto;
+  }
+  #resumo p{
+    width: 80%;
+  }
 }
