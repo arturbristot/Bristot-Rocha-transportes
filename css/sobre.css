@@ -491,7 +491,8 @@ body{
   margin: 30px;
   font-size: 1.2rem;
   text-align: center;
-  width: 52rem;
+  width: 70rem;
+  max-width: 80vw;
   font-family: "Lato", sans-serif;
 }
 
